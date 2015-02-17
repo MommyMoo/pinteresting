@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  root "pages#home"
+  get "about" => "pages#about" # creats about_path that allows us to say about before a route to a new page when creating a new link
+
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
