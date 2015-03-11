@@ -2,7 +2,7 @@ Rails.application.routes.draw do
   resources :pins
 
   devise_for :users
-  root "pages#home"
+  root "pins#index"
   get "about" => "pages#about" # creats about_path that allows us to say about before a route to a new page when creating a new link
 
 

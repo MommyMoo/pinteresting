@@ -9,6 +9,7 @@ $brand-primary: 							#2ecc71;
 $jumbotron-bg: 								lighten(#5bc0de, 20%); // #337ab7
 $jumbotron-heading-color: 		white;
 
+@import "bootstrap-sprockets";
 @import 'bootstrap';
 
 .center {
