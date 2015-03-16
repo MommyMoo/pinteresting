@@ -1,7 +1,7 @@
-@import url(https://fonts.googleapis.com/css?family=Handlee);
-
+@import url('https://fonts.googleapis.com/css?family=Handlee');
+@font-face { font-family: 'DirtyHeadline'; src: url('fonts/dirty_headline-webfont.eot'); src: local('?'), url('fonts/dirty_headline-webfont.woff') format('woff'), url('fonts/dirty_headline-webfont.ttf') format('truetype'), url('fonts/dirty_headline-webfont.svg#webfontzwLyc702') format('svg'); font-weight: normal; font-style: normal; }
 $body-bg: 										lighten(#5bc0de, 33.5%); // #337ab7
-$font-family-sans-serif:			'Handlee';
+$font-family-sans-serif:			'DirtyHeadline';
 $navbar-height:								45px;
 $navbar-default-bg: 					white;
 $navbar-default-brand-color: 	#2ecc71;
